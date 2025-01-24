@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Empresa</title>
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background-color: #1F2344;
+            color: #1F2344;
+        }
+        .form-container {
+            width: 100%;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #454B79;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            text-align: center;
+            color: aliceblue;
+        }
+        .form-container label {
+            color: aliceblue;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-container input[type="text"], 
+        .form-container input[type="email"], 
+        .form-container input[type="tel"], 
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1F2344;
+            color: aliceblue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-container button:hover {
+            background-color: #1F2344cc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Formulário de Contato</h2>
+        <form>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Seu email">
+
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Seu telefone">
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" placeholder="Sua mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+#cabecalho h2{
+    display: none;
+}
+
+#logo{
+    width: 150px;
+}
+
+.logo-principal{
+    margin-top: 20%;
+}
+.img-logo{
+    width: 300px;
+    margin-left: 50px;
+}
+
+section h2{
+    font-size: 60px;
+    background-color: #454B79;
+    text-align: center;
+}
+
+.titulo-section{
+    background-color: #454B79;
+    font-size: 38px;
+    text-align: center;
+}
+
+.texto-sobre i{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+button i{
+    font-size: 30px;
+}

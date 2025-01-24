@@ -1,0 +1,83 @@
+body{
+    color: aliceblue;
+    background-color: #1F2344;
+    overflow-x:hidden;
+    font-family:  "Roboto", sans-serif;
+}
+
+.fundo-lilas{
+    background-color: #454B79;
+}
+
+.texto-titulo{
+    font-family: "Outfit", system-ui;;
+}
+
+.link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h2, h3, h4, h5{
+    font-family: "Poppins", serif;
+}
+
+h2{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h4{
+    font-size: 25px;
+}
+
+.texto{
+    font-size: 32px;
+}
+
+i{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    #cabecalho p{
+        display: none ;
+    }
+    #cabecalho h2{
+        display: flex;
+    }
+
+    /* Centralizar a imagem e o conteúdo */
+    .row.fundo-lilas {
+        display: flex;
+        flex-direction: column;  /* Torna os itens em coluna */
+        justify-content: center; /* Alinha os itens no centro verticalmente */
+        align-items: center; /* Alinha os itens no centro horizontalmente */
+    }
+
+    /* Aplique o text-center em todas as colunas */
+    .col-12 {
+        text-align: center;
+    }
+
+    /* Ajuste da largura das colunas em telas pequenas */
+    .col-12 {
+        width: 100%;
+    }
+
+    .col-md-5 {
+        max-width: 100%;
+    }
+}
